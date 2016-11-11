@@ -9,6 +9,8 @@ namespace LanguageElementsLynda
     class NewClass
     {
        //Random comment for testing git
+
+        //Here's another comment 
         
     }
 
