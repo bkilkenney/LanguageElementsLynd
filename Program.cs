@@ -24,6 +24,8 @@ namespace LanguageElementsLynda
             //Check out how clean this code looks
             Sum(3, 5);
             Console.ReadLine();
+
+            MultiplicationProduct(9, 4);
         }
 
         static string ConcatTwoStrings(string str1, string str2)
@@ -42,6 +44,13 @@ namespace LanguageElementsLynda
         {
             int sum = num1 + num2;
             Console.WriteLine(sum);
+        }
+
+        static void MultiplicationProduct(int q, int r)
+        {
+            int product = q * r;
+            Console.WriteLine(product);
+               
         }
        
 
