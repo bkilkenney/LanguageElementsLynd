@@ -13,8 +13,17 @@ namespace LanguageElementsLynda
 
             //ConcatTwoStrings("First string ", "and this is the second/last string");
 
-            string mySentence = ConcatTwoStrings("First string and ", "last string.");
-            Console.WriteLine(mySentence);
+            //string sentence = ConcatTwoStrings("First part of the string", " and last part of the string");
+            Console.WriteLine(ConcatTwoStrings("First part of the string", " and last part of the string"));
+            Console.ReadLine();
+
+            //This way works but the writeline can go in the method's code block keeping Main more clean
+            Console.WriteLine(Add(270, 218));
+            Console.ReadLine();
+
+            //Check out how clean this code looks
+            Sum(3, 5);
+            Console.ReadLine();
         }
 
         static string ConcatTwoStrings(string str1, string str2)
@@ -23,6 +32,18 @@ namespace LanguageElementsLynda
             return fullString;            
         }
 
+        static int Add(int x, int y)
+        {
+            int sum = x + y;
+            return sum;
+        }
+
+        static void Sum(int num1, int num2)
+        {
+            int sum = num1 + num2;
+            Console.WriteLine(sum);
+        }
+       
 
     }
 }
